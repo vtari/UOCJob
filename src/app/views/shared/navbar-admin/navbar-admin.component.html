@@ -1,0 +1,142 @@
+<!-- <nav class="navbar-admin navbar-admin-expand-lg navbar-admin-absolute fixed-top navbar-admin-transparent">
+  <div class="container-fluid">
+    <div class="navbar-admin-wrapper">
+      <div class="navbar-admin-toggler">
+      
+        <button type="button" class="navbar-admin-toggler" (click)="sidebarToggle()">
+          <span class="navbar-admin-toggler-bar bar1"></span>
+          <span class="navbar-admin-toggler-bar bar2"></span>
+          <span class="navbar-admin-toggler-bar bar3"></span>
+        </button>
+      </div>
+      <a class="navbar-admin-brand" href="javascript:void(0)">{{getTitle()}}</a>
+    </div>
+    <button class="navbar-admin-toggler" type="button" (click)="collapse()" [attr.aria-expanded]="!isCollapsed"
+      aria-controls="collapseExample">
+      <span class="navbar-admin-toggler-bar navbar-admin-kebab"></span>
+      <span class="navbar-admin-toggler-bar navbar-admin-kebab"></span>
+      <span class="navbar-admin-toggler-bar navbar-admin-kebab"></span>
+    </button>
+    <div class="collapse navbar-admin-collapse justify-content-end" id="collapseExample" [ngbCollapse]="isCollapsed">
+   
+
+      <ul class="navbar-admin-nav">
+        <li class="nav-item d-none d-lg-block ml-lg-4"> 
+          <h4><span class="badge badge-secondary"><i class="fas fa-user"></i>{{getUserName()}}</span></h4>
+         </li>
+
+        <li class="nav-item d-none d-lg-block ml-lg-4">
+          <a [routerLink]="" class="btn btn-primary btn-icon" (click)="logOut()">
+            <span class="btn-inner--icon">
+              <i class="fas fa-sign-out-alt"></i>
+            </span>
+            <span class="nav-link-inner--text">Salir</span>
+          </a>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+</nav> -->
+<nav id="navbar-main"
+class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned  justify-content-end" style="border:none !important">
+
+<div class="container-admin" style="width:100%;display: flex; justify-content: space-between;">
+  <button class="navbar-toggler" type="button" (click)="sidebarToggle()" >
+    <span class="navbar-toggler-icon2"><i class="far fa-caret-square-down"></i></span>
+  </button>
+   
+   <!-- <button class="navbar-toggler justify-content-end" type="button" (click)="isCollapsed = !isCollapsed"
+      [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+      <span class="navbar-toggler-icon"></span>
+
+      
+    </button>-->
+    <ul class="navbar-nav ">      
+      <li class="nav-item dropdown d-lg-block ml-lg-4">
+        <a [routerLink]="" class="btn btn-primary btn-icon" (click)="logOut()">
+          <span class="btn-inner--icon">
+            <i class="fas fa-sign-out-alt"></i>
+          </span>
+          <span class="nav-link-inner--text">Salir</span>
+        </a>
+      </li>
+      
+     
+    </ul>
+    <!--
+    <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
+      <div class="navbar-collapse-header">
+        <div class="row">
+         
+          <div class="col-6 collapse-close">
+            <button type="button" class="navbar-toggler" (click)="isCollapsed = !isCollapsed"
+              [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+
+      </ul>
+      <ul class="navbar-nav ">      
+        <li class="nav-item dropdown d-lg-block ml-lg-4">
+          <a [routerLink]="" class="btn btn-primary btn-icon" (click)="logOut()">
+            <span class="btn-inner--icon">
+              <i class="fas fa-sign-out-alt"></i>
+            </span>
+            <span class="nav-link-inner--text">Salir</span>
+          </a>
+        </li>
+        
+       
+      </ul>
+    </div>
+  </div>
+</nav>-->
+
+  <!--<ul class="navbar-admin-nav">
+            <li class="nav-item d-none d-lg-block ml-lg-4 ">
+                <a [routerLink]="['/login']" class="btn btn-primary btn-icon " (click)="sidebarToggle()">
+                  <span class="btn-inner--icon">
+                    <i class="fa fa-bars"></i>
+                  </span>
+                 
+                </a>
+              </li>
+        </ul>-->
+
+          <!-- <form>
+        <div class="input-group no-border">
+          <input type="text" value="" class="form-control" placeholder="Buscar">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <i class="fa fa-search"></i>
+            </div>
+          </div>
+        </div>
+      </form> -->
+        <!--
+        <li class="nav-item btn-rotate" ngbDropdown placement="bottom-left">
+          <a class="nav-link" ngbDropdownToggle id="navbar-adminDropdownMenuLink" >
+            <i class="fa fa-bell"></i>
+            <p>
+              <span class="d-lg-none d-md-block">Notificaciones</span>
+            </p>
+          </a>
+          <div ngbDropdownMenu aria-labelledby="navbar-adminDropdownMenuLink" class="dropdown-menu dropdown-menu-right">
+            <a ngbDropdownItem href="javascript:void(0)">Action</a>
+            <a ngbDropdownItem href="javascript:void(0)">Another action</a>
+            <a ngbDropdownItem href="javascript:void(0)">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-rotate" href="javascript:void(0)">
+            <i class="fa fa-cog"></i>
+            <p>
+              <span class="d-lg-none d-md-block">Cuenta</span>
+            </p>
+          </a>
+        </li>-->

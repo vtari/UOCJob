@@ -1,0 +1,20 @@
+@import 'dashboard/variables';
+@import 'dashboard/mixins';
+
+
+// Core CSS
+@import "dashboard/tables";
+@import "dashboard/misc";
+@import "dashboard/images";
+@import "dashboard/sidebar-and-main-panel";
+
+
+// cards
+@import "dashboard/cards";
+
+// angular differences
+//@import "dashboard/angular/plugin-ngx-toastr";
+@import "dashboard/angular/sidebar-and-main-panel";
+//@import "dashboard/angular/dropdown";
+//@import "dashboard/angular/inputs";
+@import "dashboard/responsive";
