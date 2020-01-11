@@ -1574,7 +1574,7 @@
         /**
          * Check whether a request accepts `text/html` (based on the `Accept` header).
          */
-        acceptsTextHtml(req) {
+       acceptsTextHtml(req) {
             const accept = req.headers.get('Accept');
             if (accept === null) {
                 return false;
